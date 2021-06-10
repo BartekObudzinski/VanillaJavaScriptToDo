@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #e5e5e5;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header{
+    color:white;
+    width: 200px;
+    height: 100px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -325px;
+}
+
+.textmsg{
+    width: 850px;
+    height: 250px;
+    border: 10px black solid;
+    font-size: 36px;
+}
+
+.submit{
+    color:white;
+    width: 200px;
+    height: 100px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    display: flex;
+    position: relative;
+    left: 325px;
+}
+
+.div {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+.element{
+    width: 850px;
+    height: 130px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px black solid;
+    margin-bottom: 25px;
+    font-size: 36px;
+}
+
+.btnDelete{
+    width: 130px;
+    height: 130px;
+    background: red;
+    position: relative;
+    font-size: 36px;
+    border: 5px black solid;
+    left:5px;
+}
+
+.confirmTask{
+    width: 130px;
+    height: 130px;
+    background: green;
+    font-size: 36px;
+    border: 5px black solid;
+    position: relative;
+    left: 255px;
+    cursor: pointer;
+   
+}
+.singleTask{
+    margin: 5px;
+}
+.elementDone {
+    background-color: green !important;
+}
+/*
+.textmsg{
+    width: 1300px;
+    height: 200px;
+    font-size: 72px;
+    margin:25px;
+}
+
+.submit{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: pink;
+    opacity: 0.7;
+    font-size: 72px;
+    border: 3px green solid;
+}
+
+.div {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.element{
+    width: 80%;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px black solid;
+    margin: 100px;
+    font-size: 72px;
+}
+
+.btnDelete{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: pink;
+    opacity: 0.7;
+    font-size: 72px;
+    border: 3px green solid;
+}
+
+
+.confirmTask{
+    width: 400px;
+    height: 200px;
+    background: green;
+    font-size: 72px;
+    border: 3px rgb(2, 49, 2) solid;
+    margin-right: 25%;
+}
+
+.elementDone {
+    background-color: green !important;
+    text-decoration: underline;
+}
+
+*/
